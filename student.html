@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <style>
+        #submit-button{
+            background-color: azure;
+        }
+
+        label{
+            margin-bottom: 1em;
+        }
+       
+   </style>
+    <body>
+        <div class="header">
+             
+            <h1><center>Vellore Institute of Technology AP University</center></h1>
+        </div>
+           <ul>
+               <li><a href="home.html">Home</a></li>
+              <li><a href="department.html">Department</a></li>
+              <li><a href="student.html">Student Registration</a></li>
+              <li><a href="http://vtop2.vitap.ac.in:8070/vtop/initialProcess">VTOP Student Login</a></li>
+              
+           </ul>
+       
+        
+                
+           
+        
+        <div class="detail-collection-form">
+            <form id="collection-form">
+                <fieldset>
+                    <legend>Student Details</legend>
+
+                    <label for="Fname">First Name : </label>
+                    <input type="text" name="fname" id="fname-input" autofocus required>
+                    <br>
+                    <label for="Lname">Last Name : </label>
+                    <input type="text" name="lname" id="lname-input" autofocus required>
+                    <br>
+                    <label for="Sregis">Registration Number : </label>
+                    <input type="text" name="regisno" id="regisno-input" autofocus required>
+                    <br>
+                    <label for="Email">Student Email : </label>
+                    <input type="email" name="email" id="email-input" required>
+                    <br>
+
+                    <label for="year-of-study">Year of Study</label>
+                    <select name="batch" id="batch">
+                        <option value="senior">Senior</option>
+                        <option value="junior">Junior</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="fresher">Fresher</option>
+                    </select>
+                    <br>
+
+                    <input id="submit-button" type="submit" >
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <h3>VIT-AP University, Inavolu, Beside AP Secratariat, Pin Code : 522511</h3>
+        </footer>
+    </body>
+</html>
