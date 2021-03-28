@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,8 @@
         <link rel="stylesheet" href="style.css">
         <title>Home</title>
     </head>
-    
-        
     <body>
-        <div class="header">
-             
+        <div class="header">          
             <h1><center>Vellore Institute of Technology AP University</center></h1>
         </div>
            <ul>
@@ -19,10 +16,9 @@
                <li><a href="department.html">Department</a></li>
                <li><a href="student.html">Student Registration</a></li>
                <li><a href="http://vtop2.vitap.ac.in:8070/vtop/initialProcess">VTOP Student Login</a></li>
-               
            </ul>   
        
-       <div class="main-content">
+   <div class="main-content">
         <div>
             <h1>Welcome To Vellore Institute Of Technology, A.P
             </h1>
@@ -34,7 +30,6 @@
             </h3>
             <h2>It is a place where:</h2>
             <div style="float:none;">
-            
                 <li>Students are offered immense opportunities to learn, practice, grow, and thrive</li>
                 <br>
                 <li>Autonomous learning is encouraged in order to enable students to chart their own course</li>
@@ -43,12 +38,10 @@
                 <br>
                 <li>Industrial and international exposure is provided</li>
                 <br>
-                <li>Overall personality development is ensured through sports, clubs and chapters, and cultural activities.</li>
-            
+                <li>Overall personality development is ensured through sports, clubs and chapters, and cultural activities.</li> 
         </div>
         </div>
         <br>
-        
         <div>
             <h2>Images</h2>
             <img src="AB1.jpg" alt="campus photo">
